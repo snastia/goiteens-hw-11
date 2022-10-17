@@ -186,7 +186,7 @@ width: 270px;
     display: flex;
     justify-content: space-between;
 }
-.item{
+.list .item{
     margin: 30px;
 }
 .list-human{
@@ -221,11 +221,11 @@ height: 260px;
     color: var(--accent-color);
 }
 .link{
-    width: 44px;
-    height: 44px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background-color: #ffff;
     color: #AFB1B8;
@@ -238,13 +238,7 @@ height: 260px;
 .icon{
     width: 20px;
     height: 20px;
-    top: 12px;
-    left: 12px;
     fill: currentColor;
-}
-.item{
-    width: 20px;
-    height: 20px;
 }
 .list{
     display: flex;
